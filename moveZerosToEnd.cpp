@@ -16,7 +16,7 @@ void moveZero(int arr[], int n){
 int main(){
     int arr[] = {10, 5, 0, 0, 8, 0 ,9};    // array with zeros
     int n = sizeof(arr)/sizeof(arr[0]);    // size of array
-    moveToEnd(arr, n);                     // move zeros to the end
+    moveZero(arr, n);                     // move zeros to the end
     for(int i=0; i<n; i++){                // print the array
         cout<<arr[i]<<" ";
     }
